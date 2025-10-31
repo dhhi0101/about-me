@@ -24,3 +24,20 @@
 - Notion: [Click here](https://dhhi0101.notion.site/29d16a53543580c39cfbd16d75b942f3?source=copy_link)
 
 <br>
+
+### 📚 기술스택
+**Python**
+* 기본 문법 학습, 알고리즘 문제 해결 연습에 사용
+  
+**C**
+* 포인터와 메모리 관리 기본 개념 학습함
+
+**Java**
+* 기본 문법과 OOP(클래스, 상속, 다형성 등) 개념 학습함
+
+**Ubuntu**
+* 'ls', 'cd', 'mkdir', 'grep', 'gcc' 등 터미널(CLI) 환경의 기본 명령어 사용 익숙
+
+**Visual Studio code (VSCode)**
+* 주력 코드 에디터로 사용
+* 코드 작성, 터미널 실행, 기본적인 디버깅(Breakpoint) 기능 활용
