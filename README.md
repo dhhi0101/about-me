@@ -41,3 +41,25 @@
 **Visual Studio code (VSCode)**
 * 주력 코드 에디터로 사용
 * 코드 작성, 터미널 실행, 기본적인 디버깅(Breakpoint) 기능 활용
+
+<br>
+
+### 📁 프로젝트 경험
+#### 1️⃣ PQC: Kyber 논문 기반 NTT 연산 구현
+진행 기간: 2024년 8월
+
+설명: 
+- 양자내성암호(PQC) 표준 알고리즘 중 하나인 **Crystal-Kyber** 논문[(NIST FIPS 203)](https://share.google/ph9xPsKTtQfnOfF3l) 을 기반으로, 핵심 연산인 NTT(Number-Theoretic Trasnform)를 파이썬으로 구현함
+- Dilithium 알고리즘의 파이썬 코드를 분석하여 PQC 내부 동작 원리 학습
+
+주요 구현: 
+- Kyber 논문 참고하여 NTT 및 역NTT 연산 구현
+- NTT를 활용한 다항식 덧셈 및 곱셈 연산 구현
+
+배운 점:
+- 암호학 논문에 기술된 복잡한 수학적 알고리즘(NTT)을 **실제 코드로 옮겨보는 과정**을 경험함
+- PQC 표준 알고리즘의 핵심 연산이 **어떤 원리로 동작하는지 학습**하고, 그 구현의 **어려움을 체감**할 수 있었음
+- Dilithium 파이썬 코드 분석을 통해 실제 표준 알고리즘이 **어떻게 구조화되어 있는지** 접해볼 수 있었음
+
+
+**[GitHub 리포지토리 (구현 코드 보기)](https://github.com/dhhi0101/kyber-ntt-python)**
