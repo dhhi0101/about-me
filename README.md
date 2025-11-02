@@ -86,3 +86,24 @@
 - OpenSSL 라이브러리를 C언어에서 직접 사용하여 **AES 암호화/복호화 API**를 다루는 경험을 쌓음
 
 **[GitHub 리포지토리 (구현 코드 보기)](https://github.com/dhhi0101/os-project)**
+
+<br>
+
+#### 3️⃣ 라즈베리파이 기반 거리 감지 텔레그램 봇 개발
+**진행기간:** 2025년 1학기
+
+**설명:**
+- 라즈베리파이에 연결된 **초음파 센서(`HC-SR04`)**로 실시간 거리를 측정
+- 사용자가 텔레그램 `/start` 명령으로 모니터링 활성화하면, 거리가 기준(30cm) 이하로 가까워질 시 **USB 카메라**로 사진을 캡처하고 **LED**를 점등시키며 텔레그램으로 경고 메시지와 사진 전송
+
+**사용한 기술:** `Python`, `Raspberry Pi (GPIO)`, `python-telegram-bot`, `OpenCV (cv2)`, `threading`
+
+**주요 구현:**
+- **하드웨어 제어 및 API 연동:** `RPI.GPIO`로 초음파 센서/LED 제어, `OpenCV`로 카메라 캡처, `python-telegram-bot` 라이브러리로 `/start`, `/stop` 등 명령어 구현
+- **멀티스레딩 아키텍처:** Telegram 봇(메인 스레드)과 별도로, `threading.Thread` 생성하여 **백그라운드 센서 모니터링 루프**가 동기적으로 작동하도록 구현
+
+**배운 점:**
+- 라즈베리파이에서 Python을 이용해 `GPIO` 핀을 직접 제어하고, `OpenCV`, `Telegram Bot API` 등 **다양한 하드웨어와 API를 통합**하여 실제 서비스를 구현하는 경험
+- 텔레그램 봇의 **비동기(Async) 루프와 동기(Sync) 방식의 실시간 센서 스레드**를 `threading`으로 분리하고, 두 환경을 연동하는 **복잡한 동시성 관리** 방법을 학습
+
+**[GitHub 리포지토리 (구현 코드 보기)](https://github.com/dhhi0101/telegram-distance-notice)**
