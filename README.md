@@ -86,24 +86,28 @@
 
 <br>
 
-#### 3️⃣ 라즈베리파이 기반 거리 감지 텔레그램 봇 개발
-**진행기간:** 2025년 1학기
+### 3️⃣ 라즈베리파이 기반 거리 감지 텔레그램 봇
+**📌 진행 기간:** 2025년 1학기
 
-**설명:**
-- 라즈베리파이에 연결된 **초음파 센서(`HC-SR04`)** 로 실시간 거리를 측정
-- 사용자가 텔레그램 `/start` 명령으로 모니터링 활성화하면, 거리가 기준(30cm) 이하로 가까워질 시 **USB 카메라**로 사진을 캡처하고 **LED**를 점등시키며 텔레그램으로 경고 메시지와 사진 전송
+**🔧기술 스택:** `Python`, `Raspberry Pi (GPIO)`, `python-telegram-bot`, `OpenCV (cv2)`, `threading`
 
-**사용한 기술:** `Python`, `Raspberry Pi (GPIO)`, `python-telegram-bot`, `OpenCV (cv2)`, `threading`
+**📄 내용:** 
+- 연결된 초음파 센서(`HC-SR04`) 로 실시간 거리 측정
+- 30cm 이하 접근 시 사진 촬영 + LED 점등 + Telegram에 알림 발송
+- 사용자가 `/start` 입력 시 모니터링 시작, `/stop`시 중단
 
-**주요 구현:**
-- **하드웨어 제어 및 API 연동:** `RPI.GPIO`로 초음파 센서/LED 제어, `OpenCV`로 카메라 캡처, `python-telegram-bot` 라이브러리로 `/start`, `/stop` 등 명령어 구현
-- **멀티스레딩 아키텍처:** Telegram 봇(메인 스레드)과 별도로, `threading.Thread` 생성하여 **백그라운드 센서 모니터링 루프**가 동기적으로 작동하도록 구현
+**⚙️ 주요 구현:** 
+- `RPI.GPIO`로 초음파 센서/LED 제어
+- `OpenCV`로 USB 카메라 이미지 캡처
+- `python-telegram-bot` 라이브러리로 `/start`, `/stop` 등 명령 제어
+- 메인 스레드와 센서 모니터링 스레드를 **threading**으로 분리
 
-**배운 점:**
-- 라즈베리파이에서 Python을 이용해 `GPIO` 핀을 직접 제어하고, `OpenCV`, `Telegram Bot API` 등 **다양한 하드웨어와 API를 통합**하여 실제 서비스를 구현하는 경험
-- 텔레그램 봇의 **비동기(Async) 루프와 동기(Sync) 방식의 실시간 센서 스레드**를 `threading`으로 분리하고, 두 환경을 연동하는 **복잡한 동시성 관리** 방법을 학습
+**💡 배운 점:**
+- 라즈베리파이에서 Python을 활용한 **하드웨어 제어** 경험
+- Telegram Bot API, OpenCV 등 다양한 라이브러리 연동
+- 실시간 이벤트 기반의 **다중 스레드 동작 구조** 설계 및 처리 
 
-**[GitHub 리포지토리 (구현 코드 보기)](https://github.com/dhhi0101/telegram-distance-notice)**
+**🔗[GitHub](https://github.com/dhhi0101/telegram-distance-notice)**
 
 <br>
 
