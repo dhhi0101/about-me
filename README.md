@@ -39,27 +39,27 @@
 
 <br>
 
-### 📁 프로젝트 경험
-#### 1️⃣ PQC: Kyber 논문 기반 NTT 연산 구현
-**진행 기간:** 2024년 8월
+## 📁 프로젝트 경험
+### 1️⃣ PQC: Kyber 논문 기반 NTT 연산 구현
+**📌 진행 기간:** 2024년 8월  
 
-**설명:** 
-- 양자내성암호(PQC) 표준 알고리즘 중 하나인 **Crystal-Kyber** 논문[(NIST FIPS 203)](https://share.google/ph9xPsKTtQfnOfF3l) 을 기반으로, 핵심 연산인 `NTT(Number-Theoretic Trasnform)`를 파이썬으로 구현함
-- Dilithium 알고리즘의 파이썬 코드를 분석하여 PQC 내부 동작 원리 학습
+**🔧 기술 스택:** `Python`
 
-**사용한 기술:** `Python`
+**📄 내용:** 
+- 양자내성암호(PQC) 표준 알고리즘 중 하나인 **Crystal-Kyber** 논문[(NIST FIPS 203)](https://share.google/ph9xPsKTtQfnOfF3l) 의 핵심 연산인 `NTT(Number-Theoretic Trasnform)`를 Python으로 구현
+- Dilithium 알고리즘의 Python 코드를 분석하여 PQC 내부 동작 원리 학습
 
-**주요 구현:** 
-- Kyber 논문 참고하여 **NTT 및 역NTT 연산** 구현
-- NTT를 활용한 **다항식 덧셈 및 곱셈 연산** 구현
+**⚙️ 주요 구현:** 
+- Kyber 논문 참고 **NTT / 역NTT 연산** 구현
+- **다항식 덧셈 및 곱셈 연산** 수행
 
-**배운 점:**
-- 암호학 논문에 기술된 복잡한 수학적 알고리즘(NTT)을 **실제 코드로 옮겨보는 과정**을 경험함
-- PQC 표준 알고리즘의 핵심 연산이 **어떤 원리로 동작하는지 학습**하고, 그 구현의 **어려움을 체감**할 수 있었음
-- Dilithium 파이썬 코드 분석을 통해 실제 표준 알고리즘이 **어떻게 구조화되어 있는지** 접해볼 수 있었음
+**💡 배운 점:**
+- 암호학 논문을 기반으로 알고리즘을 **실제 코드로 구현하는 과정** 경험
+- PQC 표준 알고리즘에서 NTT가 **어떤 원리로 동작하는지 학습**하고, 구현의 **어려움을 체감**함
+- Dilithium 분석을 통해 실제 **표준 알고리즘의 구조** 이해
 
 
-**[GitHub 리포지토리 (구현 코드 보기)](https://github.com/dhhi0101/kyber-ntt-python)**
+**🔗[GitHub](https://github.com/dhhi0101/kyber-ntt-python)**
 
 <br>
 
