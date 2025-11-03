@@ -111,23 +111,24 @@
 
 <br>
 
-#### 4️⃣ Python 날씨 API + todo list 프로그램
-> Python 팀 프로젝트로 간단한 프로그램 개발
+### 4️⃣ Python 날씨 API + todo list 프로그램
+**📌 진행 기간:** 2023년 2학기
 
-**진행 기간:** 2023년 2학기
+**🔧기술 스택:** `Python`, `tkinter`, `requests`, `pandas`
 
-**설명:**
-- `tkinter`를 사용해 만든 GUI 애플리케이션으로, `OpenWeatherMap API`를 연동한 '오늘의 날씨' 조회 기능과 '할 일 목록(Todo List)' 관리 기능을 하나의 프로그램에 통합
+**📄 내용:** 
+- `tkinter` GUI 환경에서 `OpenWeatherMap API`를 연동한 오늘의 날씨 조회, Todo List 관리 기능을 하나의 프로그램에 통합
 
-**사용한 기술:** `Python`, `tkinter`, `requests`, `pandas`
+**⚙️ 주요 구현:** 
+- `requests`로 OpenWeatherMap API 호출, `json` 파싱한 데이터를 pandas DataFrame으로 변환하여 **오늘 날씨만 필터링**
+- `tkinter`의 `Frame`, `Entry`, `Listbox`, `Button` 등 다양한 위젯을 사용해 인터페이스 구축
+- 할 일(task)과 마감일(deadline)을 리스트에 저장
+- `lambda` 함수를 `sort`의 `key`로 사용하여 자동 정렬
 
-**주요 구현:**
-- **API 연동 및 데이터 처리:** `requests`로 OpenWeatherMap API를 호출, `json`으로 파싱한 데이터를 pandas DataFrame으로 변환하여 **오늘 날씨만 필터링**
-- **GUI 애플리케이션:** `tkinter`의 `Frame`, `Entry`, `Listbox`, `Button` 등 다양한 위젯을 사용해 날씨 조회 및 할 일 관리 인터페이스 구축
-- **데이터 관리 및 정렬:** 할 일(task)과 마감일(deadline)을 리스트에 저장, `lambda` 함수를 `sort`의 `key`로 사용하여 마감일 순서대로 목록을 자동 정렬
-
-**배운 점:**
-- `tkinter` GUI 구현과 `requests`/`pandas` API 연동 등 **기능별로 역할을 분담**하고, 각자 개발한 코드를 **하나의 애플리케이션으로 통합**하는 **협업 과정**을 경험
+**💡 배운 점:**
+- `tkinter` GUI 요소 활용
+- API 연동 후 pandas 기반 데이터 처리
+- 팀 개발 **협업 경험** (기능별 역할 분담 → 통합)
 
 <br>
 
