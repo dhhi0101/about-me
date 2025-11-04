@@ -121,7 +121,9 @@
 **💡 배운 점:**
 - **객체지향(OOP)** 구조 설계 (추상화, 상속, 다형성)
 - Java Swing으로 GUI 개발 
-- **멀티스레드** 기반 동시 동작 처리 
+- **멀티스레드** 기반 동시 동작 처리
+
+**🔗[GitHub](https://github.com/dhhi0101/java-mini-game)**
 
 <br>
 
