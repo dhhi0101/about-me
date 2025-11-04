@@ -105,6 +105,8 @@
 - API 연동 후 pandas 기반 데이터 처리 경험
 - 팀 내 역할 분담 및 통합 경험
 
+**🔗[GitHub](https://github.com/dhhi0101/todo-weather-python)**
+
 <br>
 
 ### 5️⃣ Java Swing 기반 몬스터 잡기 미니게임
