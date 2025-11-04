@@ -77,23 +77,16 @@
 ### 3️⃣ 라즈베리파이 기반 거리 감지 텔레그램 봇
 **📌 진행 기간:** 2025년 1학기
 
-**🔧기술 스택:** `Python`, `Raspberry Pi (GPIO)`, `python-telegram-bot`, `OpenCV (cv2)`, `threading`
-
 **📄 내용:** 
-- 연결된 초음파 센서(`HC-SR04`) 로 실시간 거리 측정
-- 30cm 이하 접근 시 사진 촬영 + LED 점등 + Telegram에 알림 발송
-- 사용자가 `/start` 입력 시 모니터링 시작, `/stop`시 중단
+- 초음파 센서로 실시간 거리 측정하고 30cm 이하 접근 시 LED 점등 및 사진 촬영 후 Telegram으로 알림 전송
+- `/start`, `/stop` 명령을 통한 모니터링 제어 기능 구현
 
-**⚙️ 주요 구현:** 
-- `RPI.GPIO`로 초음파 센서/LED 제어
-- `OpenCV`로 USB 카메라 이미지 캡처
-- `python-telegram-bot` 라이브러리로 `/start`, `/stop` 등 명령 제어
-- 메인 스레드와 센서 모니터링 스레드를 **threading**으로 분리
+**⚙️ 주요 구현:** RPI.GPIO / OpenCV / Telegram bot / threading
 
 **💡 배운 점:**
 - 라즈베리파이에서 Python을 활용한 **하드웨어 제어** 경험
 - Telegram Bot API, OpenCV 등 다양한 라이브러리 연동
-- 실시간 이벤트 기반의 **다중 스레드 동작 구조** 설계 및 처리 
+- 실시간 이벤트 기반의 **다중 스레드 동작 구조** 설계 
 
 **🔗[GitHub](https://github.com/dhhi0101/telegram-distance-notice)**
 
