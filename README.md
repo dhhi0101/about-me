@@ -15,13 +15,16 @@
 </div>
 <br>
 
-### 👤 인적사항
-- 이름: 이도희
-- 전공: 산업보안학과
-- 연락처: 010-XXXX-XXXX
-- 이메일: dohee050101 [at] gmail [dot] com
-- GitHub 주소: https://github.com/dhhi0101
-- Notion: [Click here](https://dhhi0101.notion.site/29d16a53543580c39cfbd16d75b942f3?source=copy_link)
+## 👤 인적사항
+**이름:** 이도희  
+**학력:** 단국대학교 산업보안학과 (2023 ~ 현재 재학 중)
+
+🔗 **Contact & Links**  
+
+[![Gmail](https://img.shields.io/badge/Gmail-555555?logo=gmail&logoColor=white)](mailto:dohee050101@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/dhhi0101)
+[![Notion](https://img.shields.io/badge/Notion-000000?logo=notion&logoColor=white)](https://dhhi0101.notion.site/29d16a53543580c39cfbd16d75b942f3?source=copy_link)
+[![Tistory](https://img.shields.io/badge/Tistory-444444?logo=tistory&logoColor=white)](https://thisisme0101.tistory.com/)
 
 <br>
 
