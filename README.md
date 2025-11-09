@@ -17,9 +17,9 @@
 
 ## 👤 인적사항
 **이름:** 이도희  
-**전공:** 산업보안학과  
+**학력:** 단국대학교 산업보안학과 (2023 ~ 현재 재학 중)
 
-📞 **Contact**  
+🔗 **Contact & Links**  
 
 [![Gmail](https://img.shields.io/badge/Gmail-555555?logo=gmail&logoColor=white)](mailto:dohee050101@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/dhhi0101)
