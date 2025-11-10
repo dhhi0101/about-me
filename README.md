@@ -5,12 +5,14 @@
 </h3>
 
 📚 Languages / OS / Tools 📚
+<br>
 
 ![js](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![js](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![js](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![js](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![js](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/mini/generate_badge?boj=dhhi0101)](https://solved.ac/dhhi0101)
 
 </div>
 <br>
