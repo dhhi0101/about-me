@@ -32,12 +32,11 @@
 
 ## 📁 프로젝트 경험
 ### 1️⃣ PQC: Kyber 논문 기반 NTT 연산 구현
-**📌 진행 기간:** 2024년 8월  
+**진행 기간:** 2024년 8월  
 
-**📄 내용:** 
-- **Crystal-Kyber** 논문[(NIST FIPS 203)](https://share.google/ph9xPsKTtQfnOfF3l) 의 핵심 연산인 `NTT(Number-Theoretic Trasnform)`를 Python으로 구현하여 PQC 계산 흐름 학습
+**내용:** **Crystal-Kyber** 논문[(NIST FIPS 203)](https://share.google/ph9xPsKTtQfnOfF3l) 의 핵심 연산인 `NTT(Number-Theoretic Trasnform)`를 Python으로 구현하여 PQC 계산 흐름 학습  
 
-**⚙️ 주요 구현:** NTT / inverse NTT / poly operations
+**주요 구현:** NTT / inverse NTT / poly operations  
 
 **💡 배운 점:**
 - 암호학 논문 기반 알고리즘을 **실제 코드로 구현하는 과정** 경험
@@ -48,13 +47,13 @@
 <br>
 
 ### 2️⃣ C 기반 간단한 랜섬웨어 구현
-**📌 진행 기간:** 2024년 2학기
+**진행 기간:** 2024년 2학기  
 
-**📄 내용:** 
+**내용:** 
 - `pthread`로 스레드를 분리하여 `target` 디렉터리 내 파일 암호화/복호화하는 시뮬레이터 제작
 - XOR 및 AES 방식을 이용해 파일의 헤더 일부만 암호화
 
-**⚙️ 주요 구현:** pthread / mutex sync / XOR / AES
+**주요 구현:** pthread / mutex sync / XOR / AES
 
 **💡 배운 점:**
 - `pthread`를 활용한 멀티스레드 기반 흐름 제어와 `mutex`를 이용한 동기화
@@ -66,13 +65,13 @@
 <br>
 
 ### 3️⃣ 라즈베리파이 기반 거리 감지 텔레그램 봇
-**📌 진행 기간:** 2025년 1학기
+**진행 기간:** 2025년 1학기
 
-**📄 내용:** 
+**내용:** 
 - 초음파 센서로 실시간 거리 측정하고 30cm 이하 접근 시 LED 점등 및 사진 촬영 후 Telegram으로 알림 전송
 - `/start`, `/stop` 명령을 통한 모니터링 제어 기능 구현
 
-**⚙️ 주요 구현:** RPI.GPIO / OpenCV / Telegram bot / threading
+**주요 구현:** RPI.GPIO / OpenCV / Telegram bot / threading
 
 **💡 배운 점:**
 - 라즈베리파이에서 Python을 활용한 **하드웨어 제어** 경험
@@ -84,12 +83,11 @@
 <br>
 
 ### 4️⃣ Python 날씨 API + todo list 프로그램
-**📌 진행 기간:** 2023년 2학기
+**진행 기간:** 2023년 2학기
 
-**📄 내용:** 
-- `tkinter` GUI 환경에서 `OpenWeatherMap API`를 연동한 오늘의 날씨 조회, Todo List 관리 기능을 하나의 프로그램에 통합
+**내용:** `tkinter` GUI 환경에서 `OpenWeatherMap API`를 연동한 오늘의 날씨 조회, Todo List 관리 기능을 하나의 프로그램에 통합
 
-**⚙️ 주요 구현:** OpenWeatherMap API / tkinter / pandas
+**주요 구현:** OpenWeatherMap API / tkinter / pandas
 
 **💡 배운 점:**
 - `tkinter` GUI 요소 활용
@@ -101,13 +99,13 @@
 <br>
 
 ### 5️⃣ Java Swing 기반 몬스터 잡기 미니게임
-**📌 진행 기간:** 2023년 2학기
+**진행 기간:** 2023년 2학기
 
-**📄 내용:** 
+**내용:** 
 - 창 내부를 랜덤으로 이동하는 몬스터를 클릭해 체력 감소시키고 잡은 수를 세는 미니게임 구현
 - 다양한 몬스터와 스레드 활용해 독립적인 움직임 표현
 
-**⚙️ 주요 구현:** OOP / Swing / threading
+**주요 구현:** OOP / Swing / threading
 
 **💡 배운 점:**
 - **객체지향(OOP)** 구조 설계 (추상화, 상속, 다형성)
