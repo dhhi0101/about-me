@@ -12,7 +12,6 @@
 ![js](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![js](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![js](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-[![Solved.ac Profile](http://mazassumnida.wtf/api/mini/generate_badge?boj=dhhi0101)](https://solved.ac/dhhi0101)
 
 </div>
 <br>
@@ -27,6 +26,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/dhhi0101)
 [![Notion](https://img.shields.io/badge/Notion-000000?logo=notion&logoColor=white)](https://dhhi0101.notion.site/29d16a53543580c39cfbd16d75b942f3?source=copy_link)
 [![Tistory](https://img.shields.io/badge/Tistory-444444?logo=tistory&logoColor=white)](https://thisisme0101.tistory.com/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/mini/generate_badge?boj=dhhi0101)](https://solved.ac/dhhi0101)
 
 <br>
 
